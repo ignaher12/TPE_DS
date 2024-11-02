@@ -1,81 +1,46 @@
-This document contains the functional requirements we elicited for the Farmacy Food system, based on the first Kata session and 
-the documents provided to all teams. You will find the _actors_ we identified, and how they interact with the system in major scenarios.
+Descripcion del documento.
 
 # ***Actors***
-- Customer
-- Replenisher
-- Smart fridge system
-- Vendor POS system
-- Farmacy Food central kitchen system 
+- Clientes
+- Flotas de transporte
+- Sistema de gestión de reparto y rutas ?
+- MercadoPago
+- Administrador ? 
+- Sistema de pedidos ?
 
 
 <br>
 
-# ***Customer on the Farmacy Food app <sup>1</sup>***
+# ***Clientes en el sistema de pedidos.***
 
-## Account management 
-- Self-register as a Farmacy Food user
-- Authenticate using Farmacy Food user ID and password
-- Authenticate using Open ID
-    - Can be done via an API Gateway (Ambassador, for example)
-- Update profile information, including dietary restrictions and health information
-- View/update subscription information
-- View/update meal order
-- View order history
+## Manejo de cuenta.
+- Registro de usuario.
+- Autenticación usando nombre de usuario y contraseña.
+- Acceder a sus datos personales.
+- Actualizar sus datos personales.
+- Ver historial de pedidos..
 
-## ***Catalog*** 
-- Browse meal options
-- Search for meals by ingredient or other criteria
-- Search for meal availability per location
-    - For the case when the customer wants to pick up the order right away
-- See information about a meal: ingredients, nutrition facts, rating, reviews, etc. 
-- Browse promotions and coupons 
-- Browse subscription plans 
-- Find pick-up locations (smart fridges, vendor kiosks, Farmacy Food-run restaurants)
-    - Requires integration with maps provider (Google Maps, for example)
+## ***Catalogo*** 
+- Buscar las opciones de productos.
+- Agregar productos al carrito de compras. 
+- Borrar productos del carrito de compras. 
     
-## ***Orders*** 
+## ***Pedidos*** 
+- Realizar un pedido del carrito, seleccionando la fecha y lugar de entrega.
+- Modificar un pedido del carrito.
+- Cancelar pedido.
+- Ver estado del pedido.
 
-- Add, edit quantity, or remove meal to/from shopping cart
-- Create, edit, or cancel meal subscription
-- Check out: review cart; select pick-up location (with find functionality); enter coupon; enter payment information; review and confirm order (meals, pick-up location, date and time range); display order confirmation code and pick up instructions
-- Edit or cancel order 
-- Rate a meal that was purchased and picked up
-- Add a review for a meal that was purchased and picked up
-- Send notification about an order 
-    - Examples of notifications: order confirmation; payment confirmation; meal pick up instructions; meal pick up reminders; confirmation that meal was picked up; request for feedback (rate and review meals).
-    - May use email, app push notification, SMS, whatsApp, etc.
+<br>
 
 <br>
 
 
-# ***Customer at a pick-up location***
-## Smart fridge
-- Use credit or debit card used for online order to open fridge, and pick up order
-- Enter online order confirmation code to open fridge, and pick up order
-- Select available meal, pay using credit or debit card to open fridge, and pick up order
-## Vendor kiosk
-- Present credit or debit card used for online order to cashier, and pick up order
-- Present online order confirmation code to cashier, and pick up order
-- Pick Farmacy Food meals, possibly alongside other store items, and pay for everything at the cashier
+# ***Flotas de transporte en el Sistema de gestión de reparto y rutas.***
 
-<br>
-
-
-# ***Replenisher<sup>2</sup> on the Farmacy Food app***
-
-## Smart fridge
-- Replenish the fridge (placing or removing meals), and update the stock information
-- Confirm stock information after visual inspection
-- Change the status of a smart fridge
-    - Installed but turned off, operative but offline, operative and online, temporarily out of order, in maintenance by supplier, decommissioned
-    - The assumption behind this requirement is that a Farmacy Food representative is co-responsible for inspecting the smart fridges and notifying the smart fridge supplier of any issues
-    
-## Vendor kiosk
-- Replenish the stock at a vendor location (placing or removing meals), and update the stock information
-- Confirm stock information after visual inspection
-- Change the status of vendor location:
-    - Open, closed temporarily, business closed
+## Rutas
+- Informar incidencia.
+- Visualizar ruta.
 
 <br>
 

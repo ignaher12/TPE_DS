@@ -12,7 +12,7 @@ manera que la nueva arquitectura sea menos rígida y sea más fácil de evolucio
 
 ## Decisión tomada
 
-Opción elegida: "Arquitectura basada en microservicios", debido al requisito dado por la compañía. La transición se llevará a cabo mediante la separación de la estructura monolítica actual en los siguientes microservicios independientes:
+Opción elegida: "Arquitectura basada en microservicios", debido al requisito dado por la compañía. La transición se llevará a cabo mediante la separación de la estructura monolítica actual en los siguientes servicios independientes que luego seran descompuestos en microservicios:
 * Servicio de Gestión de Reparto y Rutas
 * Servicio de Pedidos
 * Servicio de Estadisticas

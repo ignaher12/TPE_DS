@@ -1,38 +1,27 @@
-# Quality attribute requirements of the Farmacy Food system
+# Atributos de calidad para el Sistema.
 
-A proper elicitation of quality attribute requirements (aka architecture characteristics, non-functional requirements) 
-requires a conversation with various system stakeholders. That conversation would allow: *(i)* specifying these requirements 
-in a testable/measurable format; and *(ii)* prioritizing the requirements. 
+En este documento, se listan varios atributos de calidad junto a sus escenarios. Algunos atributos no estan especificados en la descripción pero asumimos que son importantes para el sistema.
 
-In this document, we listed a few requirements that we *assumed* would be important for the system.  
+## *Disponibilidad*
+- En caso de que falle un modulo, el sistema debe poder recuperarse rapidamente (el sistema debe retomar su funcionamiento habitual en menos de 30 segundos).
 
-## *Interoperability with smart fridge supplier* 
-- The cost to adapt the Farmacy Food system to interact with the API provided by a new smart fridge supplier should be 
-low (e.g., less than 3 person-days).
-- The system must be able to use more than one smart fridge supplier. 
+## *Escalabilidad*
+- En horarios de alta demanda, el sistema debe poder aumentar los recursos de los microservicios demandados para poder mantener el servicio sin degradación (ej: soportar un aumento del 300% de la carga habitual).   
 
-## *Interoperability with vendor POS system* 
-- The cost to adapt the Farmacy Food system to interact with the POS system of a given vendor (coffee shop, grocery 
-store, etc.) should be low (e.g., less than 3 person-days).
-- The system must be able to interact with multiple vendor POS systems. 
+## *Performance* 
+- Al momento de asignarle una ruta al conductor, el sistema debe generar el camino optimo (ej: el 95% de las rutas asignadas deben ser las optimas).
+- Si un usuario realiza un pedido, el sistema debe preprocesar, autorizar y aceptar el pedido en el menor tiempo posible (ej: las tres fases se deben realizar en menos de 2 segundos).
 
-## *Scalability (elasticity)*
-- The system must quickly and automatically cater to an increasing number of users.
-- Meal production in the kitchen may be a bottleneck, but never the software.  :^) 
+## *Interoperabilidad* 
+- A la hora de realizar el pago, la aplicación debe operar sin problemas con Mercado Pago, permitiendo a los usuarios acceder a su cuenta realizar la compra. (ej: se debe garantizar que el usuario finalice la transaccion en menos de 10 segundos).
 
-## *Performance - response time* 
-- Customer browsing catalog options, placing orders, and using other app functions should get quick responses (up to 1 second even in peak hours).  
+## *Seguridad*
+- Si un administrador intenta modificar/eliminar un pedido, el sistema debe solicitar autenticacion para validad la identidad del administrador (ej: la autenticacion debe tener una tasa de exito del 100%).
 
-## *Performance - throughput* 
-- During peak hours, the system must be able to support a high number of concurrent user sessions (e.g., 100 simultaneous users). 
+## *Usabilidad* 
+- Cuando se un clíente realiza un pedido y ingresa sus datos erroneamente, el sistema debe indicar con un mensaje claro donde se encuentra el error y las opciones de corrección. (ej: el 90% de los usuarios deben corregir el error en el primer intento).
 
-## *Security*
-- User personal data must be protected via encryption in all communication channels. 
-- User personal data must be protected via encryption or access control wherever it is stored or manipulated. 
-- Payment information (e.g., credit card numbers) must be protected. The Farmacy Food must have basic [PCI DSS compliance](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard). 
+## *Modificabilidad*
+- Cuando los desarrolladores desean actualizar un servicio, el despliegue se debe realizar sin interrupciones. (ej: tiempo de despliegue menor a 10 minutos) 
 
-## *App usability* 
-- The different versions of the app should provide a user experience that appeals to the target user population. 
-- Using UX design techniques, and providing high levels of customization are goals.
-- The system should keep the user appraised via notifications (email, app push notification, SMS, whatsApp, or other) of 
-steps in fulfilling an order (order placed, payment confirmed, order available for pickup, etc.)
+

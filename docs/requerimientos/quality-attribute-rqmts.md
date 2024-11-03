@@ -13,15 +13,15 @@ En este documento, se listan varios atributos de calidad junto a sus escenarios.
 - Si un usuario realiza un pedido, el sistema debe preprocesar, autorizar y aceptar el pedido en el menor tiempo posible (ej: las tres fases se deben realizar en menos de 2 segundos).
 
 ## *Interoperabilidad* 
-- A la hora de realizar el pago, la aplicación debe operar sin problemas con Mercado Pago, permitiendo a los usuarios acceder a su cuenta realizar la compra. (ej: se debe garantizar que el usuario finalice la transaccion en menos de 10 segundos).
+- A la hora de realizar el pago, la aplicación debe operar sin problemas con Mercado Pago, utilizando de manera adecuada las herramientas propuestas por la aplicación. (ej: se debe garantizar que el proceso de pago tome menos de 5 segundos desde la confirmación en Mercado Pago).
 
 ## *Seguridad*
-- Si un administrador intenta modificar/eliminar un pedido, el sistema debe solicitar autenticacion para validad la identidad del administrador (ej: la autenticacion debe tener una tasa de exito del 100%).
+- Si un administrador intenta modificar/eliminar un pedido, el sistema debe solicitar autenticacion para validad la identidad del administrador (ej: la autenticacion debe tener una tasa de exito del 99%).
 
 ## *Usabilidad* 
 - Cuando se un clíente realiza un pedido y ingresa sus datos erroneamente, el sistema debe indicar con un mensaje claro donde se encuentra el error y las opciones de corrección. (ej: el 90% de los usuarios deben corregir el error en el primer intento).
 
 ## *Modificabilidad*
-- Cuando los desarrolladores desean actualizar un servicio, el despliegue se debe realizar sin interrupciones. (ej: tiempo de despliegue menor a 10 minutos) 
+- Cuando los desarrolladores desean actualizar un servicio, el despliegue se debe realizar sin interrupciones y sin interferir en otros microservicios. (ej: tiempo de despliegue menor a 10 minutos) 
 
 

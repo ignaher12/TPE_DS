@@ -10,4 +10,4 @@ Este repositorio contiene los diferentes **Architectural Decision Records (ADRs)
 3. ADR 3: Estructura de microservicio de usuarios [[ADR completo](https://github.com/ignaher12/TPE_DS/blob/main/docs/decisiones/0003-estructura-de-microservicio-de-usuarios.md)]
 4. ADR 4: Estructura de microservicio de pedidos [[ADR completo](https://github.com/ignaher12/TPE_DS/blob/main/docs/decisiones/0004-estructura-de-microservicio-de-pedidos.md)]
 5. ADR 5: Desarrollo de comunicacion de los microservicios [[ADR completo](https://github.com/ignaher12/TPE_DS/blob/main/docs/decisiones/0005-desarrollo-de-comunicacion-de-los-microservicios.md)]
-6. ADR 6: Implementar un balanceador de cargas sobre microservicio de usuarios [[ADR completo](https://github.com/ignaher12/TPE_DS/blob/main/docs/decisiones/0006-implementar-un-balanceandor-de-cargas-sobre-microservicio-de-usuarios.md)]
+6. ADR 6: Implementar un balanceador de cargas sobre microservicio de usuarios [[ADR completo](https://github.com/ignaher12/TPE_DS/blob/main/docs/decisiones/0006-implementar-un-balanceador-de-cargas-sobre-microservicio-de-usuarios.md)]

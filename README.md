@@ -2,6 +2,9 @@
 
 Este repositorio contiene los diferentes **Architectural Decision Records (ADRs)** utilizados en la migración y evolución de la arquitectura de nuestro sistema, desde un monolito a una arquitectura basada en **microservicios**. Los ADRs documentan las decisiones clave tomadas a lo largo del desarrollo, así como sus justificaciones, consecuencias y alternativas consideradas.
 
+## Drivers
+- Requerimientos Funcionales [[Archivo](https://github.com/ignaher12/TPE_DS/blob/main/docs/requerimientos/functional-rqmts.md)]
+- QAs [[Archivo](https://github.com/ignaher12/TPE_DS/blob/main/docs/requerimientos/quality-attribute-rqmts.md)]
 
 ## Tabla de Contenidos
 

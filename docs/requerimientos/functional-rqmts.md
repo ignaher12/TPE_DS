@@ -1,10 +1,10 @@
-# ***Actors***
+# ***Actores***
 - Clientes
 - Flotas de transporte
-- Sistema de gestión de reparto y rutas ?
-- MercadoPago (creo que no va)
-- Administrador ? 
-- Sistema de pedidos ?
+- Sistema de gestión de reparto y rutas
+- MercadoPago
+- Administrador 
+- Sistema de pedidos 
 
 
 <br>
@@ -57,7 +57,6 @@
 <br>
 
 # ***Sistema*** 
-[comment]: <> (Ver si separar el sistema en distintos microservicios ahora o hacerlo general)
 ## ***Gestión de Pedidos***
 - Limitar el numero maximo de intentos de pedidos a 3.
 - Procesar los pedidos en tres fases: Preprocesado del pedido, autorización y aceptación.

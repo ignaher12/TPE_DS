@@ -1,5 +1,3 @@
-Descripcion del documento.
-
 # ***Actors***
 - Clientes
 - Flotas de transporte

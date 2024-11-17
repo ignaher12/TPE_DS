@@ -15,7 +15,6 @@ El servicio de pedidos es la responsable de recabar la información para generar
 
 Opción elegida: "Cuatro microservicios: carrito, pedidos, pagos, notificaciones". 
 
-<!-- This is an optional element. Feel free to remove. -->
 ### Consecuencias
 
 * Bueno, porque nos brinda mayor modificabilidad para cambiar las formas de pago y adecuarse a posibles cambios en las regulaciones.

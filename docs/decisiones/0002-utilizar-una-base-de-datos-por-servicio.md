@@ -13,7 +13,6 @@ En la arquitectura actual, los datos se encuentran centralizados en dos bases de
 
 Opción elegida: "Base de datos por servicio", porque permite mejorar el desacoplamiento entre servicio brindando una mayor independencia.
 
-<!-- This is an optional element. Feel free to remove. -->
 ### Consecuencias
 
 * Bueno, porque brinda mas autonomia a los servicios del sistema.

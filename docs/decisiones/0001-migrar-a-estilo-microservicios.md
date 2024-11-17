@@ -1,4 +1,4 @@
-# {Migrar a Estilo Microservicios}
+# Migrar a Estilo Microservicios
 
 ## Contexto
 

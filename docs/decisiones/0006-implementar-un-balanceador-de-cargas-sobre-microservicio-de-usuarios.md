@@ -1,4 +1,4 @@
-# Implementar un balanceador de cargas sobre Servicio de Usuarios
+# Implementar un balanceador de cargas sobre servicio de usuarios
 
 ## Contexto
 

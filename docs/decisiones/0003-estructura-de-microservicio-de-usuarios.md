@@ -1,4 +1,4 @@
-# Estructura de servicio de usuarios
+# Estructura de microservicio de usuarios
 
 ## Contexto
 

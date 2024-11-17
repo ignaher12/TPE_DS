@@ -1,4 +1,4 @@
-# Utilizar un base de datos por servicio
+# Utilizar un base de datos por microservicio
 
 ## Contexto
 

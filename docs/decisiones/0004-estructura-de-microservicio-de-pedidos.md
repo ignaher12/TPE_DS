@@ -1,4 +1,4 @@
-# Estructura de servicio de pedidos
+# Estructura de microservicio de pedidos
 
 ## Contexto
 

@@ -1,4 +1,4 @@
-# Desarrollo de comunicacion de los servicios
+# Desarrollo de comunicacion de los microservicios
 
 ## Contexto
 

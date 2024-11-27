@@ -11,4 +11,4 @@ El propósito de esta iteración es avanzar en la migración del sistema monolí
 ## Resultados
 
 * [[ADR 0001](/docs/decisiones/0001-migrar-a-estilo-microservicios.md)]
-* [[DIAGRAMA DE DIVISION POR DOMINIO] (/docs/vistas/Diagrama de division por dominios.png)]
+* [[DIAGRAMA DE DIVISION POR DOMINIO](/docs/vistas/Diagrama_de_division_por_dominios.png)]

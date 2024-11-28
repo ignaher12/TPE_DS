@@ -31,4 +31,4 @@ Por ultimo,se planificará la implementación de un balanceador de cargas que se
 * [ADR 0006](/docs/decisiones/0006-implementar-un-balanceador-de-cargas-sobre-microservicio-de-usuarios.md) Artefacto que detalla la implementación de un balanceador de cargas para distribuir eficientemente las solicitudes y garantizar la escalabilidad del microservicio de usuarios.
 * [VISTA DEL MICROSERVICIO DE USUARIOS](/docs/vistas/Diagrama_de_division_de_microservicio_de_usuarios.png)  Este diagrama muestra la arquitectura del microservicio de usuarios dentro del sistema.
 
-[<- ANTERIOR ITERACIÓN](/docs/iteraciones/iteracion-2.md) [VOLVER AL README ->](/README.md)
+[<- ANTERIOR ITERACIÓN](/docs/iteraciones/iteracion-2.md)                                [VOLVER AL README ->](/README.md)

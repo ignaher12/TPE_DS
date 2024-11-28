@@ -18,4 +18,4 @@ El propósito de esta iteración es avanzar en la migración del sistema monolí
 * [ADR 0001](/docs/decisiones/0001-migrar-a-estilo-microservicios.md) En este artefecto se ve reflejada la decision de la separacion del sistema en microservicios, junto con los pros y contras.
 * [DIAGRAMA DE DIVISION POR DOMINIO](/docs/vistas/Diagrama_de_division_por_dominios.png) En esta vista se visualiza la forma de separacion de la arquitectura en los distintos microservicios. 
 
-[<- VOLVER AL README](/README.md) [SIGUIENTE ITERACIÓN ->](/docs/iteraciones/iteracion-1.md)
+[<- VOLVER AL README](/README.md)                                   [SIGUIENTE ITERACIÓN ->](/docs/iteraciones/iteracion-1.md)

@@ -9,7 +9,7 @@ Este repositorio contiene los diferentes **Architectural Decision Records (ADRs)
 ## Tabla de Contenidos
 
 # Inicio de las iteraciones.
-[[Iteración 1](/docs/iteraciones/iteracion-0.md)]
+[Iteración inicial](/docs/iteraciones/iteracion-0.md)
     
 # Decisiones de arquitectura.
 

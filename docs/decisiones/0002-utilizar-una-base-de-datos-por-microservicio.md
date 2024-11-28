@@ -12,7 +12,7 @@ En la arquitectura actual, los datos se encuentran centralizados en dos bases de
 
 ## Decisión tomada
 
-Opción elegida: "Base de datos por servicio". Este enfoque permite desacoplar completamente los servicios, generando una arquitectura más flexible, escalable y adaptable a las necesidades específicas de cada componente del sistema.
+Opción elegida: "Base de datos por servicio". Se eligio este enfoque porque permite desacoplar completamente los servicios, generando una arquitectura más flexible, escalable y adaptable a las necesidades específicas de cada componente del sistema. 
 
 ### Consecuencias
 

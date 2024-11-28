@@ -13,7 +13,7 @@ Esta nueva arquitectura permite dividir el sistema en servicios más pequeños e
 
 ## Decisión tomada
 
-Opción elegida: " Balanceador de cargas ", porque lo que ofrece una mayor distribución del tráfico de los usuarios hacia los multiples microservicios desplegados.
+Opción elegida: " Balanceador de cargas ", porque ofrece una mayor distribución del tráfico de los usuarios hacia los multiples microservicios desplegados, evitando generar cuellos de botellas u overflows de los buffers.
 
 ### Consecuencias
 

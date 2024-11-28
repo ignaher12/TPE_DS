@@ -2,7 +2,7 @@
 
 ## Contexto
 
-El servicio de usuarios se encarga de gestionar los perfiles de los usuarios y autenticar sus credenciales. Incluye tanto usuarios regulares como administradores, quienes tienen permisos adicionales para gestionar ciertos aspectos del sistema.
+El servicio de usuarios se encarga de gestionar los perfiles de los usuarios y autenticar sus credenciales. Tambien es el intermediario entre el usuario y el resto de servicios que provee el sistema. Incluye tanto usuarios regulares como administradores, quienes tienen permisos adicionales para gestionar ciertos aspectos del sistema.
 
 ## Opciones Consideradas
 

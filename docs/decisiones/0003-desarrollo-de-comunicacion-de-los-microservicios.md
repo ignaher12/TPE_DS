@@ -12,7 +12,7 @@ Al migrar a un sistema de microservicios, debemos definir la forma en la que los
 
 ## Decisión tomada
 
-Chosen option: "Híbrida (comunicacion sincrona y asincrona)", porque combina lo mejor de ambos enfoques según las necesidades de los servicios. Los servicios de Pedidos y Gestión de Rutas utilizarán una comunicación dirigida por eventos. Esto permitirá que estos servicios manejen eventos de manera asincrónica, asegurando un flujo continuo de información sin bloqueos, especialmente útil para manejar la carga variable en pedidos y rutas. Por otro lado, los servicios de Usuario y Estadísticas implementarán una comunicación basada en HTTP/REST. Este protocolo será ideal para operaciones que requieren solicitudes simples y directas, como consultas de información de usuario y estadísticas, donde la respuesta inmediata no es crítica para la funcionalidad del sistema.
+Opción elegida: "Híbrida (comunicacion sincrona y asincrona)", porque combina lo mejor de ambos enfoques según las necesidades de los servicios. Los servicios de Pedidos y Gestión de Rutas utilizarán una comunicación dirigida por eventos. Esto permitirá que estos servicios manejen eventos de manera asincrónica, asegurando un flujo continuo de información sin bloqueos, especialmente útil para manejar la carga variable en pedidos y rutas. Por otro lado, los servicios de Usuario y Estadísticas implementarán una comunicación basada en HTTP/REST. Este protocolo será ideal para operaciones que requieren solicitudes simples y directas, como consultas de información de usuario y estadísticas, donde la respuesta inmediata no es crítica para la funcionalidad del sistema.
 
 ### Consecuencias
 

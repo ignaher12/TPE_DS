@@ -4,7 +4,7 @@
 
 Una compañía de productos alimenticios pretende migrar su sistema existente, que posee una
 arquitectura de naturaleza monolítica, hacia una arquitectura basada en microservicios, de
-manera que la nueva arquitectura sea menos rígida y sea más fácil de evolucionar.
+manera que la nueva arquitectura sea menos rígida y más fácil de evolucionar.
 
 ## Opciones Consideradas
 
@@ -17,6 +17,7 @@ Opción elegida: "Arquitectura basada en microservicios", debido al requisito da
 * Servicio de Pedidos
 * Servicio de Estadisticas
 * Servicio de Usuarios
+Para la descomposición de microservicios se utilizó la estrategia de división por sub-dominios.
 
 ### Consecuencias
 

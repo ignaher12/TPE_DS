@@ -13,7 +13,8 @@ El servicio de pedidos es esencial en el sistema para gestionar el ciclo complet
 
 ## Decisión tomada
 
-Opción elegida: "Cuatro microservicios: carrito, pedidos, pagos, notificaciones" debido a las ventajas significativas en términos de escalabilidad, flexibilidad y manteníbilidad. 
+Opción elegida: "Cuatro microservicios: carrito, pedidos, pagos, notificaciones". Se eligio esta opción por las ventajas que se obtienen en terminos de escalabilidad, flexibilidad y mantenibilidad a la hora de evolucionar el sistema. Para la subdivisión de este servicio se continuo con la estrategia de sub-dominios, esta vez mucho mas especificados.
+Por otra parte, dividir de esta forma los microservicios nos permite que puedan establecerse conexiones especificas al requerimiento que necesita el usuario (por ejemplo la conexión con notificaciones).
 
 ### Consecuencias
 

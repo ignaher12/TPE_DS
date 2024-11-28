@@ -19,6 +19,12 @@ Por ultimo,se planificará la implementación de un balanceador de cargas que se
 * QAs: Performance
 * QAs: Seguridad
 
+## Artefactos a generar
+
+* Detallar las especificaciones técnicas del balanceador de cargas y su configuración.
+* Definir cómo escalar el servicio de Usuarios en función del crecimiento de tráfico.
+* Definir las políticas de seguridad para el microservicio de Usuarios, incluyendo cómo el balanceador de cargas manejará las solicitudes y garantizará la seguridad del sistema.
+
 ## Resultados
 
 * [ADR 0005](/docs/decisiones/0005-estructura-de-microservicio-de-usuarios.md) Documento detallado que describe la estructura y el diseño del microservicio de usuarios, abordando su funcionalidad y las decisiones tomadas respecto a su implementación.

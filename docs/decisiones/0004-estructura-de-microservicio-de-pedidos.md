@@ -25,3 +25,5 @@ Opción elegida: "Cuatro microservicios: carrito, pedidos, pagos, notificaciones
 * Malo, porque aumenta la complejidad de desarrollo.
 * Malo, porque se va a necesitar mas infraestructura (base de datos, colas) lo que implica un mayor costo.
 * Esta decision nos encamina a utilizar un estilo EDA (Event Driven Arquitecture) como comunicacion entre microservicios del sistema de pedidos. 
+
+[<- VOLVER A LA ITERACIÓN](/docs/iteraciones/iteracion-2.md)

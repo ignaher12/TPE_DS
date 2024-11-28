@@ -19,6 +19,9 @@ Opción elegida: " Balanceador de cargas ", porque lo que ofrece una mayor distr
 
 * Bueno, porque se evita la sobrecarga y caida de servicios.
 * Bueno, porque permite una mayor flexibilidad a la hora de replicar microservicios.
+* Bueno, porque agrega seguridad extra al acceso al sistema pudiendo desviar trafico malisioso.
 * Malo, porque agrega latencia al procesamiento de peticiones.
 * Malo, porque agrega complejidad a la hora de configurar el balanceador
 * Malo, porque incrementa el costo de despliegue y mantenimiento
+
+[<- VOLVER A LA ITERACIÓN](/docs/iteraciones/iteracion-3.md)

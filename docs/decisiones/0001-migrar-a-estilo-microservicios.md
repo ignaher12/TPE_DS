@@ -23,3 +23,5 @@ Opción elegida: "Arquitectura basada en microservicios", debido al requisito da
 * Bueno, porque brinda mas escalabilidad, modificabilidad, capacidad de despliegue independiente y reusabilidad de componentes.
 * Malo, porque la transición a microservicios puede afectar el rendimiento y agregar complejidad en el desarrollo.
 * Malo, debido a que requiere implementar y mantener un sistema de contenedorización (como Docker) y, posiblemente, herramientas de orquestación (como Kubernetes), lo que implica costos adicionales en términos de aprendizaje, configuración y mantenimiento.
+
+[<- VOLVER A LA ITERACIÓN](/docs/iteraciones/iteracion-0.md)

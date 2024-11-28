@@ -18,4 +18,5 @@ El objetivo principal de esta iteración es avanzar en la implementación de una
 
 ## Resultados
 * [ADR 0002](/docs/decisiones/0002-utilizar-una-base-de-datos-por-microservicio.md) ADR donde se ve reflejada la decision de utilizar una base de datos por microservicio y sus beneficios.
-* [ADR 0005](/docs/decisiones/0005-desarrollo-de-comunicacion-de-los-microservicios.md) Documento que detalla la decisión de utilizar un enfoque híbrido de comunicación entre microservicios.
+* [ADR 0003](/docs/decisiones/0003-desarrollo-de-comunicacion-de-los-microservicios.md) Documento que detalla la decisión de utilizar un enfoque híbrido de comunicación entre microservicios.
+* [DIAGRAMA DE DIVISION DE MICROSERVICIOS](/docs/vistas/Diagrama_de_division_de_microservicios.png) En esta vista se observa el estado del diseño de los microservicios con los protocolos de comunicación y la base de datos por módulo.

@@ -20,3 +20,4 @@ Chosen option: "Híbrida (comunicacion sincrona y asincrona)", porque combina lo
 * Malo, porque se debe aprender dos tipos distintos de comunicacion para desarrollar estas comunicaciones
 * Malo, porque se debe agregar estructuras de colas para poder manejar la comunicacion basada en eventos
  
+[<- VOLVER A LA ITERACIÓN](/docs/iteraciones/iteracion-1.md)

@@ -21,3 +21,5 @@ Opción elegida: "Base de datos por servicio". Este enfoque permite desacoplar c
 * Bueno, ya que mejora la escalabilidad y la capacidad de adaptación a nuevas teconologías.
 * Malo, porque se deben utilizar una mayor cantidad de recursos al separar en distintas bases de datos.
 * Malo, debido a que aumenta la complejidad para la configuración y moniterio de las multiples bases de datos.
+
+[<- VOLVER A LA ITERACIÓN](/docs/iteraciones/iteracion-1.md)

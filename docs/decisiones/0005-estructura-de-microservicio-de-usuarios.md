@@ -20,3 +20,5 @@ Opción elegida: " Un solo microservicio {Usuarios}". Se decidió juntar las fun
 * Bueno, debido a que facilita el desarrollo.
 * Malo, porque perdemos modificalidad y desplegabilidad si se requiere modificar alguna funcionalidad especifica de alguno de los dos roles.
 * Malo, ya que se pierde escalabilidad si las funcionalidades de administradores crecen considerablemente.
+
+[<- VOLVER A LA ITERACIÓN](/docs/iteraciones/iteracion-3.md)

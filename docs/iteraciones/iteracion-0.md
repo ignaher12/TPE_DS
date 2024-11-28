@@ -12,10 +12,8 @@ El propósito de esta iteración es avanzar en la migración del sistema monolí
 
 ## Artefactos a generar
 * Se deben refinar los microservicios
-* Definir tecnologia de comunicacion entre microservicios
-* Definir tecnologia de persistencia de datos del sistema
-
+* Definir tecnologia de comunicacion entre microservicios.
 
 ## Resultados
-* [ADR 0001](/docs/decisiones/0001-migrar-a-estilo-microservicios.md) En este artefecto se ve reflejada la decision de la separacion del sistema en microservicios, junto con los pros y contras
-* [DIAGRAMA DE DIVISION POR DOMINIO](/docs/vistas/Diagrama_de_division_por_dominios.png) En esta vista se visualiza la forma de separacion de la arquitectura en los distintos microservicios 
+* [ADR 0001](/docs/decisiones/0001-migrar-a-estilo-microservicios.md) En este artefecto se ve reflejada la decision de la separacion del sistema en microservicios, junto con los pros y contras.
+* [DIAGRAMA DE DIVISION POR DOMINIO](/docs/vistas/Diagrama_de_division_por_dominios.png) En esta vista se visualiza la forma de separacion de la arquitectura en los distintos microservicios. 

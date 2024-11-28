@@ -23,4 +23,4 @@ En esta iteración, se abordó la definición y diseño de la estructura del mic
 ## Resultados
 
 * [ADR 0004](/docs/decisiones/0004-estructura-de-microservicio-de-pedidos.md) Documento detallado que describe la estructura y el diseño del microservicio de pedidos.
-* [VISTA DEL MODULO DE PEDIDOS](/docs/vistas/Diagrama_de_division_de_microservicios_de_pedidos.png) En esta vista se obvserva como se divide el modulo de pedidos en distintos microservicios 
+* [VISTA DEL MODULO DE PEDIDOS](/docs/vistas/Diagrama_de_division_de_microservicios_de_pedidos.png) En esta vista se observa como se divide el modulo de pedidos en distintos microservicios 

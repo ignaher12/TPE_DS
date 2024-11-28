@@ -8,6 +8,9 @@ Este repositorio contiene los diferentes **Architectural Decision Records (ADRs)
 
 ## Tabla de Contenidos
 
+# Inicio de las iteraciones.
+    [[Iteración 1](/docs/iteraciones/iteracion-0.md)]
+    
 # Decisiones de arquitectura.
 
 1. ADR 1: Migrar a estilo de Microservicios [[ADR completo](/docs/decisiones/0001-migrar-a-estilo-microservicios.md)]
